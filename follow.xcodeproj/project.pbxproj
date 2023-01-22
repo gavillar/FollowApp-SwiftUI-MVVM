@@ -36,6 +36,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27AE9392297CBA790052F63E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				27DF8464297C489C006A58D3 /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		27AE9393297CBA9C0052F63E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				27DF8456297C277C006A58D3 /* followApp.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		27DF844A297C277C006A58D3 = {
 			isa = PBXGroup;
 			children = (
@@ -55,12 +71,12 @@
 		27DF8455297C277C006A58D3 /* follow */ = {
 			isa = PBXGroup;
 			children = (
+				27DF845A297C277D006A58D3 /* Assets.xcassets */,
+				27AE9393297CBA9C0052F63E /* Main */,
+				27AE9392297CBA790052F63E /* Models */,
+				27DF845C297C277D006A58D3 /* Preview Content */,
 				27DF846E297C96E8006A58D3 /* Resources */,
 				27DF846A297C9674006A58D3 /* View */,
-				27DF8456297C277C006A58D3 /* followApp.swift */,
-				27DF845A297C277D006A58D3 /* Assets.xcassets */,
-				27DF845C297C277D006A58D3 /* Preview Content */,
-				27DF8464297C489C006A58D3 /* Model.swift */,
 			);
 			path = follow;
 			sourceTree = "<group>";
